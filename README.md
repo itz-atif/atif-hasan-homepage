@@ -33,7 +33,6 @@ You can create your own homepage for free without notifying me by forking this p
 
 ---
 
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
 
 # atif-hasan-homepage

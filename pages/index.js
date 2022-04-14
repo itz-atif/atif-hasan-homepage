@@ -18,7 +18,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoFacebook, IoLogoLinkedin, IoUnlink, IoUnlinkSharp, IoUnlinkOutline } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/inkdrop-banner.jpg'
 
@@ -132,25 +132,19 @@ const Home = () => (
           
           <Heading as="h3" variant="section-title">FrontEnd:</Heading>
             <ul>
-            HTML,
-            CSS,
             JavaScript,
             React JS,
-            Three JS,
             Next JS
             </ul>
           <Heading as="h3" variant="section-title">BackEnd:</Heading>
             <ul><ul>
             NODE JS,
-            Express JS,
             PHP,
             Python
             </ul></ul>
           <Heading as="h3" variant="section-title">Design:</Heading>
             <ul>
             Photoshop,
-            Premier Pro,
-            After Effects,
             Figma,
             Adobe XD
             </ul>
@@ -206,6 +200,18 @@ const Home = () => (
                 leftIcon={<Icon as={IoLogoLinkedin} />}
               >
                 @Atif Hasan
+              </Button>
+            </Link>
+          </ListItem>
+
+          <ListItem>
+            <Link href="https://atif-hasan-info.vercel.app/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoUnlinkSharp} />}
+              >
+                My Info
               </Button>
             </Link>
           </ListItem>
