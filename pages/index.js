@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Atif Hasan
           </Heading>
-          <p>Web Developer, Designer, 3D Artist</p>
+          <p>Web Developer, Designer, Programmer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -55,7 +55,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/takuya.jpg"
+            src="/images/atif.png"
             alt="Profile image"
           />
         </Box>
@@ -159,13 +159,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Atif-Hasan-Web/" target="_blank">
+            <Link href="https://github.com/itz-atif/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                Atif-Hasan-Web
+                Itz-Atif
               </Button>
             </Link>
           </ListItem>
@@ -182,13 +182,13 @@ const Home = () => (
           </ListItem>
           
           <ListItem>
-            <Link href="https://instagram.com/atif_hasan_250" target="_blank">
+            <Link href="https://instagram.com/_atif_hasan_" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                Atif_Hasan_250
+                _Atif_Hasan_
               </Button>
             </Link>
           </ListItem>
@@ -205,7 +205,7 @@ const Home = () => (
           </ListItem>
 
           <ListItem>
-            <Link href="https://atif-hasan-info.vercel.app/" target="_blank">
+            <Link href="https://atif-info-links.vercel.app/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
