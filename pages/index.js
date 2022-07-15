@@ -112,14 +112,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Making Math Problems, Drawing,
-          
-            
-          
-           
-            Photography, Programming,
-          
-           Machine Learning
+          Art, Making Math Problems, Drawing, Photography, Programming, Machine Learning
         </Paragraph>
       </Section>
 
